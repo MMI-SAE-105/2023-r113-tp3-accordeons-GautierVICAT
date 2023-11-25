@@ -2,8 +2,8 @@ p{
     color: royalblue;
 }
 button{
-    color: rgb(250, 234, 205);
-    background-color: rgb(44, 51, 72);
+    background-color: rgb(250, 234, 205)royalblue;
+    color: rgb(44, 51, 72);
 }
 body{
     background-color: rgb(250, 234, 205);
@@ -13,5 +13,5 @@ h1{
     font-size: 50px;
 }
 a{
-    color: rgb(250, 234, 205);
+    color: rgb(44, 51, 72);
 }
