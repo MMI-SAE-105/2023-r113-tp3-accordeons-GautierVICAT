@@ -91,13 +91,13 @@ transition: all 1s ease-in-out;
 }
 
 #onglets li.visible {
-    background-color: red;
-    color: white;
-    border-color: black;
+    background-color: royalblue;
+    color: rgb(250, 234, 205);
+    border-color: rgb(44, 51, 72);
 }
 
 #onglets li:hover {
-    border-color: red;
+    border-color: royalblue;
 }
 
 #panneaux {
@@ -111,10 +111,13 @@ transition: all 1s ease-in-out;
     position: absolute;
 }
 .btnaccueuil{
-    position: relative;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
     height: 25px;
     border-color: rgb(44, 51, 72);
     background-color: royalblue;
+    bottom: 800;
 }
 .lienacc{
     color: rgb(250, 234, 205);
