@@ -114,10 +114,12 @@ transition: all 1s ease-in-out;
     position: absolute;
     bottom: 50px;
     left: 50px;
-    height: 25px;
+    height: 35px;
+    width: 200px;
     border-color: rgb(44, 51, 72);
     background-color: royalblue;
     bottom: 800;
+    border-radius: 20px;
 }
 .lienacc{
     color: rgb(250, 234, 205);
