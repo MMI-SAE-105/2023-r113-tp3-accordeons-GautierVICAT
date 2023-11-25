@@ -14,5 +14,19 @@
   </head>
   <body>
     <h1>Accordéon avec <code>x-collapse</code></h1>
+    <div class="accordeon">
+      <section x-data="{IsOpen1:true}">
+        <button @click="IsOpen1=! IsOpen1">Lorem, ipsum.</button>
+        <p x-show="IsOpen1" x-collapse>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab vero unde, commodi dolorum molestiae neque, reiciendis nulla debitis totam, molestias alias voluptatem corporis at.</p>
+      </section>
+      <section x-data="{IsOpen2:true}">
+        <button @click="IsOpen2=! IsOpen2">Lorem, ipsum.</button>
+        <p x-show="IsOpen2" x-collapse>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab vero unde, commodi dolorum molestiae neque, reiciendis nulla debitis totam, molestias alias voluptatem corporis at.</p>
+      </section>
+      <section x-data="{IsOpen3:true}">
+        <button @click="IsOpen3=! IsOpen3">Lorem, ipsum.</button>
+        <p x-show="IsOpen3" x-collapse>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab vero unde, commodi dolorum molestiae neque, reiciendis nulla debitis totam, molestias alias voluptatem corporis at.</p>
+      </section>
+    </div>
   </body>
 </html>
