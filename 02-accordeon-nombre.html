@@ -9,20 +9,19 @@
   </head>
   <body>
     <h1>Accordéon mémorisant par un nombre l'élèment ouvert</h1>
-    <div class="accordéon" x-data="IsOpen:1">
+    <div class="accordéon" x-data="{IsOpen:1}">
     <section>
-      <button></button>
-      <p></p>
+      <button @click="IsOpen=1">Lorem, ipsum.</button>
+      <p x-show="IsOpen===1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aut?</p>
     </section>
     <section>
-      <button></button>
-      <p></p>
+      <button @click="IsOpen=2">Lorem, ipsum.</button>
+      <p x-show="IsOpen===2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius.</p>
     </section>
     <section>
-      <button></button>
-      <p></p>
+      <button @click="IsOpen=3">Lorem, ipsum.</button>
+      <p x-show="IsOpen===3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repellendus!</p>
     </section>
     </div>
-  
   </body>
 </html>
